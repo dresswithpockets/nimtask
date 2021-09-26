@@ -39,7 +39,7 @@ when isMainModule:
 
     case opts.argparse_command
       of "a":
-        taskDict.addTask(opts.argparse_a_opts.get().text.join(" "))
+        taskDict.addTask(opts.argparse_a_opts.get().text.join(" "), opts.verbose, opts.quiet)
       of "e":
         taskDict.editTask(opts.argparse_e_opts.get().prefix, opts.argparse_a_opts.get().text.join(" "))
       of "f":
