@@ -14,3 +14,4 @@ bin           = @["nimtask"]
 
 requires "nim >= 1.4.8"
 requires "argparse >= 2.0.0"
+requires "print >= 1.0.0"
